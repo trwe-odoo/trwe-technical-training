@@ -11,7 +11,7 @@
     """,
     'author': 'Odoo',
     'website': 'https://www.odoo.com',
-    'category': 'Training'
+    'category': 'Training',
     'version': '0.1',
     'depends': ['base'],
     'data': [
