@@ -6,8 +6,8 @@ class Book(models.Model):
     _name = 'Book'
     _description = 'Book information'
     
-    name = fields.Char('Title', required=True)
-    authors = fields.Char('Authors')
-    editors = fields.Char('Editors')
-    isbn = fields.Integer('ISBN')
-    genre = fields.Char('Genre')
+    name = fields.Char(string='Title', required=True)
+    authors = fields.Char(string='Authors')
+    editors = fields.Char(string='Editors')
+    isbn = fields.Integer(string='ISBN')
+    genre = fields.Char(string='Genre')
