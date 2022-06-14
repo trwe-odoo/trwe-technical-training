@@ -8,7 +8,7 @@
         <field name="name">Space / Crew Member</field>
     </record>
 
-    <record id="general_user" model="res.groups">
+    <record id="space_general_user" model="res.groups">
         <field name="name">Space / General User</field>
     </record>
 </odoo>
