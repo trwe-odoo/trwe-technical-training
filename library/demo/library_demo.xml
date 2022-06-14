@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="uft-8"?>
 <odoo>
     <data noupdate="1">
-        <record model="Book" id="macbeth">
+        <record model="book" id="macbeth">
             <field name="name">Macbeth</field>
             <field name="authors">William Shakespeare</field>
             <field name="isbn">9780133554397</field>
         </record>
         
-        <record model="Book" id="to_kill_a_mockingbird">
+        <record model="book" id="to_kill_a_mockingbird">
             <field name="name">To Kill a Mockingbird</field>
             <field name="authors">Harper Lee</field>
             <field name="isbn">9780060194994</field>
         </record>
         
-        <record model="Book" id="hamlet">
+        <record model="book" id="hamlet">
             <field name="name">Hamlet</field>
             <field name="authors">William Shakespeare</field>
             <field name="isbn">9780140707342</field>
         </record>
         
-        <record model="Book" id="the_great_gatsby">
+        <record model="book" id="the_great_gatsby">
             <field name="name">The Great Gatsby</field>
             <field name="authors">F. Scott Fitzgerald</field>
             <field name="isbn">9780333791035</field>
         </record>
         
-        <record model="Book" id="of_mice_and_men">
+        <record model="book" id="of_mice_and_men">
             <field name="name">Of Mice and Men</field>
             <field name="authors">John Steinbeck</field>
             <field name="isbn">9780330241441</field>
