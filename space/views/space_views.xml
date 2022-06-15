@@ -16,7 +16,8 @@
                                 <field name="num_passengers"/>
                             </group>
                             <group>
-                                <field name="ship_dimensions"/>
+                                <field name="ship_width"/>
+                                <field name="ship_length"/>
                             </group>
                             <group>
                                 <field name="fuel_type"/>
