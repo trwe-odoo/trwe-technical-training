@@ -25,6 +25,11 @@
                             <group>
                                 <field name="active"/>
                             </group>
+                            <notebook>
+                                <page string="Missions">
+                                    <field name="missions"/>
+                                </page>
+                            </notebook>
                         </group>
                     </sheet>
                 </form>

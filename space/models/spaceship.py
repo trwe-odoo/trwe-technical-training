@@ -14,6 +14,7 @@ class Spaceship(models.Model):
     ship_type = fields.Char(string='Ship Type')
     num_passengers = fields.Integer(string='Number of Passengers')
     active = fields.Boolean(string='Active', default=True)
+    missions = fields.Many2many(comodel_name='mission', string='Missions')
 
     @api.constrains('ship_width', 'ship_length')
     def _check_dimensions(self):
