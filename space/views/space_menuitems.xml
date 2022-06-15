@@ -5,6 +5,11 @@
             <field name="name">Spaceships</field>
             <field name="res_model">spaceship</field>
             <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create the first course
+                </p>
+            </field>
         </record>
 
         <menuitem name="Odoo Space Mission" id="menu_space" sequence="1"/>
