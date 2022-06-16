@@ -21,6 +21,11 @@
                                 <field name="launch_date"/>
                                 <field name="return_date"/>
                             </group>
+                            <group>
+                                <field name="fuel_amount"/>
+                                <field name="num_engines"/>
+                                <field name="risk_level"/>
+                            </group>
                         </group>
                     </sheet>
                 </form>
@@ -36,6 +41,18 @@
                     <field name="launch_date"/>
                     <field name="return_date"/>
                 </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="mission_view_graph">
+            <field name="name">mission.graph</field>
+            <field name="model">mission</field>
+            <field name="arch" type="xml">
+                <graph string="Mission Graph">
+                    <field name="name"/>
+                    <field name="fuel_amount"/>
+                    <field name="num_engines"/>
+                </graph>
             </field>
         </record>
     </data>

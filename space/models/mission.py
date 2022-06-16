@@ -7,7 +7,7 @@ from odoo import models, fields, api
 
 class Mission(models.Model):
     _name = 'mission'
-    _descriptoin = 'Odoo space mission'
+    _description = 'Odoo space mission'
 
     name = fields.Char(string='Mission Name')
 
@@ -18,3 +18,9 @@ class Mission(models.Model):
     launch_date = fields.Date(string='Launch Date')
 
     return_date = fields.Date(string='Return Date')
+
+    fuel_amount = fields.Integer(string='Amount of Fuel Needed')
+
+    num_engines = fields.Integer(string='Number of Engines Required')
+
+    risk_level = fields.Selection(string='Risk Level', selection=[('low', 'Low'), ('medium', 'Medium'), ('high', 'High')])
