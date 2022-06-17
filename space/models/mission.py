@@ -24,3 +24,7 @@ class Mission(models.Model):
     num_engines = fields.Integer(string='Number of Engines Required')
 
     risk_level = fields.Selection(string='Risk Level', selection=[('low', 'Low'), ('medium', 'Medium'), ('high', 'High')])
+
+    space_project_id = fields.One2many(comodel_name='project.task',
+                                       inverse_name='mission_id',
+                                       string='Space Projects')
