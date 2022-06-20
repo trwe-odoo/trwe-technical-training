@@ -18,6 +18,7 @@
         'views/space_views.xml',
         'views/mission_views.xml',
         'views/project_views_inherit.xml',
+        'wizard/project_wizard_view.xml',
     ],
     'demo': [
         'demo/spaceship_demo.xml',

@@ -9,14 +9,6 @@
                     <sheet>
                         <h1><field name="name"/></h1>
                         <group>
-                            <notebook>
-                                <page string="Spaceships">
-                                    <field name="spaceships"/>
-                                </page>
-                                <page string="Crew Members">
-                                    <field name="crew_members"/>
-                                </page>
-                            </notebook>
                             <group>
                                 <field name="launch_date"/>
                                 <field name="return_date"/>
@@ -26,6 +18,17 @@
                                 <field name="num_engines"/>
                                 <field name="risk_level"/>
                             </group>
+                            <notebook>
+                                <page string="Spaceships">
+                                    <field name="spaceships"/>
+                                </page>
+                                <page string="Crew Members">
+                                    <field name="crew_members"/>
+                                </page>
+                                <page string="Projects">
+                                    <field name="space_project_id"/>
+                                </page>
+                            </notebook>
                         </group>
                     </sheet>
                 </form>
